@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: "en" }}">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{ page.title }} | {{ site.title }}</title>
+
+  <!-- Minima 테마 스타일 적용 -->
+  <link rel="stylesheet" href="{{ "/assets/main.css" | relative_url }}">
+
+  <!-- Minima 기본 메타 태그 적용 -->
+  {% if site.minima.include_metas %}
+    {% include meta.html %}
+  {% endif %}
+
+  <!-- MathJax 추가 -->
+  <script type="text/javascript" async
+      src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+  <script type="text/javascript" async
+      src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
+  <!-- Minima 기본 스타일 적용 -->
+  {% if site.minima.include_css %}
+    <style>
+      {{ site.minima.css | strip }}
+    </style>
+  {% endif %}
+</head>
+
+<body>
+
+  <!-- 헤더 추가 -->
+  <header class="site-header">
+    <div class="wrapper">
+      <a class="site-title" href="{{ "/" | relative_url }}">{{ site.title }}</a>
+    </div>
+  </header>
+
+  <!-- 컨텐츠 출력 -->
+  <main class="page-content">
+    <div class="wrapper">
+      {{ content }}
+    </div>
+  </main>
+
+  <!-- 푸터 추가 -->
+  <footer class="site-footer">
+    <div class="wrapper">
+      <p>&copy; {{ site.time | date: "%Y" }} {{ site.author }}</p>
+    </div>
+  </footer>
+
+</body>
+</html>
+
+
+  
+
