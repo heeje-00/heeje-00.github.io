@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "테일러 급수"
-date: 2025-02-25 14:00:00 +0900
+date: 2025-02-24 14:00:00 +0900
 categories: jekyll
 mathjax: true
 ---
