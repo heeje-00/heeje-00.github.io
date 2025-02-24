@@ -23,7 +23,7 @@ $$
 \Large e^{i\theta} = \cos(\theta) + i\sin(\theta)
 $$
 
-위 공식은 복소평면 위에서 정의된 원의 방정식을 한번 미분해주면 쉽게 증명할 수 있다. 
+위 공식은 복소평면 위에서 정의된 원의 방정식을 한번 미분해주면 쉽게 증명할 수 있습니다. 
 
 ![복소평면](/assets/images/O1.jpg)
 
@@ -72,5 +72,27 @@ $$
 
 
 $$
-z = e^{i\theta} = \cos(\theta) + i\sin(\theta)
+\Large z = e^{i\theta} = \cos(\theta) + i\sin(\theta)
 $$
+
+여기서 끝내지 말고 직관적인 오일러 공식의 의미를 보면 좋을 것 같습니다.
+
+먼저 자연상수 e의 정의를 봅시다.
+
+$$
+e = \lim_{n \to \infty} \left(1 + \frac{1}{n}\right)^n
+$$
+
+여기서 자연상수 e에 x승이라는 것은 무엇을 의미하는지 봅시다.
+
+$$
+e^x = \lim_{n \to \infty} \left(1 + \frac{x}{n}\right)^n = \left[ \lim_{{n \to \infty}} \left( 1 + \frac{x}{n} \right)^{n/x} \right]^x
+$$
+
+따라서 x를 i로 바꿔주면
+
+$$
+e^i = \lim_{n \to \infty} \left(1 + \frac{i}{n}\right)^n
+$$
+
+오일러 공식은 복소평면을 이해하는데 기본적인 공식이 됩니다!
