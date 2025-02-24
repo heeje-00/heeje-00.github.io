@@ -32,6 +32,12 @@ github_username:  jekyll
 # MathJax 설정 추가
 mathjax: true
 
+markdown: kramdown
+kramdown:
+  math_engine: mathjax
+  syntax_highlighter: rouge
+
+
 sass:
   sass_dir: _sass
   style: compressed
