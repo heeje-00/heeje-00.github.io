@@ -15,10 +15,20 @@
   {% endif %}
 
   <!-- MathJax 추가 -->
+  <script type="text/javascript">
+    MathJax = {
+      tex: {
+        inlineMath: [['$', '$'], ['\\(', '\\)']]
+      }
+    };
+  </script>
   <script type="text/javascript" async
-      src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+    src="https://polyfill.io/v3/polyfill.min.js?features=es6">
+  </script>
   <script type="text/javascript" async
-      src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+    src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.2.0/es5/tex-mml-chtml.js">
+  </script>
+  
 
   <!-- Minima 기본 스타일 적용 -->
   {% if site.minima.include_css %}
