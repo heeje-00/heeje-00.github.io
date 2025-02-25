@@ -6,7 +6,7 @@ categories: jekyll
 mathjax: true
 ---
 
-## ** 3. 푸리에 변환 **
+## ** 3. 푸리에 변환**
 
 안녕하세요!  
 
