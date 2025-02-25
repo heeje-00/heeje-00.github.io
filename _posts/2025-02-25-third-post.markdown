@@ -6,7 +6,7 @@ categories: jekyll
 mathjax: true
 ---
 
-## ** 3. 푸리에 변환**
+## **3. 푸리에 변환**
 
 안녕하세요!  
 
@@ -100,12 +100,12 @@ $$
 
 정리하면, **푸리에 변환과 역변환**은 다음과 같이 표현됩니다.  
 
-### ** 푸리에 변환**
+### **푸리에 변환**
 $$
 \Large X(f) = \int_{-\infty}^{\infty} x(t)e^{-i2\pi ft} dt
 $$
 
-### ** 역푸리에 변환**
+### **역푸리에 변환**
 $$
 \Large x(t) = \int_{-\infty}^{\infty} X(f)e^{i2\pi ft} df
 $$
@@ -144,8 +144,13 @@ $$
   X(f) = \int_{-\infty}^{\infty} x(t)e^{-i2\pi ft} dt
   $$
 - **역푸리에 변환 공식**
+
   $$
   x(t) = \int_{-\infty}^{\infty} X(f)e^{i2\pi ft} df
   $$
-- **푸리에 변환이 존재하려면** $ \int_{-\infty}^{\infty} |x(t)| dt < \infty $ 여야 한다.
 
+- **푸리에 변환이 존재하려면** 
+
+$$
+\int_{-\infty}^{\infty} |x(t)| dt < \infty 
+$$
