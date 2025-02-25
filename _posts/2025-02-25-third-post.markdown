@@ -45,8 +45,9 @@ $$
 이제 **주기를 무한대로 극한을 취하여 주기함수라는 조건을 없애보겠습니다.**  
 
 ### **1️⃣ 주기를 무한대로 보내기**
+
 $$
-\lim_{T \to \infty} x(t) = \lim_{T \to \infty} \sum_{n = -\infty}^{\infty} \left[ \frac{1}{T} \int_{-T/2}^{T/2}x(t)e^{-in\omega t}dt \right] e^{in\omega t}
+\lim_{T \to \infty} x(t) = \lim_{T \to \infty} \sum_{n = -\infty}^{\infty} [ \frac{1}{T} \int_{-T/2}^{T/2}x(t)e^{-in\omega t}dt ] e^{in\omega t}
 $$
 
 $$
@@ -99,12 +100,12 @@ $$
 
 정리하면, **푸리에 변환과 역변환**은 다음과 같이 표현됩니다.  
 
-### **✔ 푸리에 변환**
+### ** 푸리에 변환**
 $$
 \Large X(f) = \int_{-\infty}^{\infty} x(t)e^{-i2\pi ft} dt
 $$
 
-### **✔ 역푸리에 변환**
+### ** 역푸리에 변환**
 $$
 \Large x(t) = \int_{-\infty}^{\infty} X(f)e^{i2\pi ft} df
 $$
