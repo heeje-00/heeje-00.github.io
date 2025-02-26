@@ -1,12 +1,12 @@
 ---
 layout: post
-title: "컨볼루션 연산"
+title: "이산 컨볼루션 연산"
 date: 2025-02-26 10:00:00 +0900
 categories: jekyll
 mathjax: true
 ---
 
-## **컨볼루션 연산**
+## **6. 이산 컨볼루션 연산**
 
 안녕하세요!
 
