@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "LTI 시스템"
-date: 2025-02-25 9:00:00 +0900
+date: 2025-02-26 9:00:00 +0900
 categories: jekyll
 mathjax: true
 ---
