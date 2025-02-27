@@ -97,7 +97,7 @@ $$
 이를 일반화하면, $ e^x $ 는 다음과 같이 정의됩니다.
 
 $$
-e^x = \lim_{n \to \infty} \left(1 + \frac{x}{n}\right)^n =  \lim_{{n \to \infty}} [( 1 + \frac{x}{n})^{n/x} ]^x
+e^x = \lim_{n \to \infty} \left(1 + \frac{x}{n}\right)^n =  \lim_{n \to \infty} [( 1 + \frac{x}{n})^{n/x} ]^x
 $$
 
 이제 $ x $ 를 $ i $ 로 바꿔보겠습니다.

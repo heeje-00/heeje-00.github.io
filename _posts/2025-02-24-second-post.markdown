@@ -79,5 +79,5 @@ y(t) = \sum_{n=-\infty}^{\infty} C_n e^{in\omega t}
 $$
 
 $$
-C_n = \frac{1}{T} \int_0^T y(t) e^{-in\omega t} dt
+C_n = \frac{1}{T} \int_{0}^T y(t) e^{-in\omega t} dt
 $$
